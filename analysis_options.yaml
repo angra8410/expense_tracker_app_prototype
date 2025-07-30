@@ -1,0 +1,13 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    prefer_const_constructors: true
+    prefer_final_fields: true
+    always_use_package_imports: true
+    avoid_print: true
+    annotate_overrides: true
+    sort_pub_dependencies: true
+    avoid_redundant_argument_values: true
+    require_trailing_commas: true
+    # Add more rules as your team prefers

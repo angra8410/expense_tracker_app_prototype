@@ -1,0 +1,31 @@
+name: expense_tracker_smart_ai
+description: "A robust, best-practices AI-powered expense tracker built with Flutter."
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  flutter_riverpod: ^2.4.0      # <- Use flutter_riverpod
+  flutter_gen: ^5.4.0           # <- Add flutter_gen for localization
+  # Add analytics, crash reporting, secure storage, etc. as needed
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.4.2
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.9 
+
+flutter:
+  uses-material-design: true
+  generate: true
+  # assets:
+  #   - assets/
